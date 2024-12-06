@@ -10,6 +10,7 @@ public interface ITestFixtureBase
     Task TakeScreenshotAsync(string fileName);
 }
 
+
 public class TestFixtureBase : ITestFixtureBase
 {
     private readonly IPlaywrightDriver _playwrightDriver;
